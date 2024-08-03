@@ -22,7 +22,7 @@
     <div id="confirmDialog" class="confirm-dialog">
         <div class="confirm-dialog-content">
             <p id="confirmMessage">Are you sure?</p>
-            <button id="confirmYes">Yes</button>
+            <button id="confirmYes">Yes</button><br>
             <button id="confirmNo">No</button>
         </div>
     </div>

@@ -1,6 +1,6 @@
 function sendRequest(action, data, callback) {
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "api.php", true);
+    xhr.open("POST", "../includes/api.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onload = function () {
         if (xhr.status === 200) {
